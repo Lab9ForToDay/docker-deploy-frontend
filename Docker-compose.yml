@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  backend:
+    image: nichapat017/234-deploylab-fronend:latest
+    ports:
+      - "8086:8080"
